@@ -20,7 +20,6 @@ void Opcion3();
 void Opcion4();
 void Opcion5();
 
-
 int main() {
     int opt;
     char charOpt = 's';
