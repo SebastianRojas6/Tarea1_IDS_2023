@@ -169,37 +169,6 @@ void Opcion1() {
     regis.close();
 }
 
-/*
-    Utilizando estructura de registros, elaborar un programa en C++ que permita realizar lo siguiente:
-        • Registrar N registros en un archivo externo TXT que contengan los siguientes campos de ventas de los
-        productos:
-        • Codigo (entero autogeneradoentre 1 y 500)
-        • Nombre producto(string o char de 30)
-        • Linea de Producto (A.electrodomesticos, B: línea blanca y C: audio y video)
-        • Precio Etiqueta (soles)
-        • Precio de Oferta ( Sobre precio etiqueta A= 10% , B=15%, C=20%
-        • Cantidad (autogenerado entre 10 y 30)
-        • Importe total Precio Etiqueta (soles)…(valor calculado)
-        • Importe total Precio Oferta(soles) …(valor calculado)
-        • IGV 18% sobre importe precio oferta…(valor calculado)
-        • Importe Total = Importe total Precio Oferta + IGV…(valor calculado)
-
-    Tener en cuenta lo siguiente:
-        • Precio Oferta: Obtener el valor del descuento según la categoría
-        • Importe Precio etiqueta = Cantidad x Precio Etiqueta
-        • Importe Precio Oferta = Cantidad x Precio Oferta
-        • IGV: considerar 18% sobre importe oferta
-        • Importe Total= Importe total Precio Oferta + IGV
-
-    Incluir las Operaciones Básicas de archivos:
-        a) Grabar los registros en un archivo TXT
-        b) Mostrar los registros grabados en modo Tabular
-        c) Buscar un registro por código
-        d) Modificar un campo y recalcular los valores calculados
-        e) Eliminar un registro según su código
-*/
-
-
 void Opcion2() {
     system("cls");
 
