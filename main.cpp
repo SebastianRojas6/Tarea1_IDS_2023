@@ -70,8 +70,10 @@ int Bienvenida() {
     system("cls");
 
     int opt = 0;
-
-    std::cout << "==================\n";
+     std::cout<< "================= ";
+	std::cout<< "Mini proyecto";
+	std::cout<< " =================";
+	std::cout<<"\n";
     std::cout << "Bienvenido, seleccione una opcion: \n\n";
     std::cout << "1 - Grabar los registros\n";
     std::cout << "2 - Mostrar los registros\n";
